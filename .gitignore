@@ -2,6 +2,7 @@
 .Rhistory
 .Rapp
 *.history
+.DS_Store
 
 # Example code in package build process
 *-Ex.R

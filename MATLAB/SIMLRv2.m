@@ -1,4 +1,4 @@
-function [S00,y, S, F, ydata,alphaK,timeOurs,converge,LF] = SIMLR(X, c, k, ifimpute,normalize)
+function [S000,y, S, F, ydata,alphaK,timeOurs,converge,LF] = SIMLR(X, c, k, ifimpute,normalize)
 
 %%%
 if nargin==2
@@ -41,7 +41,7 @@ no_dim=c;
 NITER = 30;
 num = size(X,1);
 r = -1;
-beta = 1;
+beta = .8;
 D_Kernels = multipleK(X);
 clear X
 alphaK = 1/(size(D_Kernels,3))*ones(1,size(D_Kernels,3));
@@ -60,16 +60,16 @@ end
 lambda = max((mean(rr)),0);
 A(isnan(A))=0;
 S0 = max(max(distX))-distX;
-%S0 = Network_Diffusion(S0,k);
-%S0 = NE_dn(S0,'ave');
+S0 = Network_Diffusion(S0,k);
+S0 = NE_dn(S0,'ave');
 S= (S0 + S0')/2;
 D0 = diag(sum(S,order));
     m=size(D0,1);
    % L0 = eye(m) - S;
-S00=S;   
+S000=S;   
 L0= D0-S;
 [F, temp, evs]=eig1(L0, c, 0);
-%F = NE_dn(F,'ave');
+F = NE_dn(F,'ave');
 for iter = 1:NITER
     distf = L2_distance_1(F',F');
     A = zeros(num);
@@ -82,7 +82,7 @@ for iter = 1:NITER
     A(inda) = ad(:);
     A(isnan(A))=0;
     S = (1-beta)*A+beta*S;
-    %S = Network_Diffusion(S,k);
+    S = Network_Diffusion(S,k);
     S= (S + S')/2;
     D = diag(sum(S,order));
     %m=size(D,1);
@@ -90,7 +90,7 @@ for iter = 1:NITER
     L=D-S;
     F_old = F;
     [F, temp, ev]=eig1(L, c, 0);
-   % F = NE_dn(F,'ave');
+    F = NE_dn(F,'ave');
     F = (1-beta)*F_old+beta*F;
     evs(:,iter+1) = ev;
     for i = 1:size(D_Kernels,3)
