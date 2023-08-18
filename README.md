@@ -47,7 +47,7 @@ The "SC_SIMLR_implementation.m" script contains code to generate Silhouette scor
 We modified the implementation in "**SIMLR.m**" to generate results before and after applying graph diffusion. 
 
 ### Generate Visualizations
-The "**generate_figures.py**" script generates figures of similarity matrices and 2-D cluster visualization using data obtained from the MATLAB script. We used this script to generate Figure 3 and Figure 4 in the paper. 
+The "**generate_figures.py**" script generates figures of similarity matrices and 2-D cluster visualization using data obtained from the MATLAB script. We used this script to generate Figure 3 and Figure 4 (kindly note that the cluster figures might not look exactly the same due to the stochastic nature of TSNE) in the paper. 
 ```
 python3 generate_figures.py --dir ./results
 ```
