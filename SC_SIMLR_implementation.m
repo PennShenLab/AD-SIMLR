@@ -50,9 +50,9 @@ writetable(sil_table, output_folder+'/silhouette_scores.csv');
 
 %% Save SC and SIMLR implementation results
 writematrix(S00, output_folder+'/simMat_SC.txt')
-writematrix(S_simlr, output_folder+'/simMat_simlr.txt')
+writematrix(S_simlr, output_folder+'/simMat_SIMLR.txt')
 writematrix(S000, output_folder+'/simMat_SC_diff.txt')
-writematrix(S_simlr_diff, output_folder+'/simMat_simlr_diff.txt')
+writematrix(S_simlr_diff, output_folder+'/simMat_SIMLR_diff.txt')
 writematrix(y_kmeans, output_folder+'/clusters_labels_kmeans.txt')
 writematrix(ydata_kmeans, output_folder+'/tsne_visualization_kmeans.txt')
 writematrix(V_spec, output_folder+'/latent_SC.txt');
