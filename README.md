@@ -72,7 +72,7 @@ Below are the 2-D cluster visualizations for each of the five methods. The 2-D e
 
 | ![Image 1](results/tsne_kmeans.png) | ![Image 2](results/tsne_SC.png) |
 |:---:|:---:|
-| *K-Means* | *SC* |
+| *K-Means* | *Spectral Clustering* |
 | ![Image 3](results/tsne_SIMLR.png) | ![Image 4](results/tsne_SC_diff.png) |
 | *SIMLR* | *Spectral Clustering  + Graph Diffusion* |
 | ![Image 5](results/tsne_SIMLR_diff.png) | |
