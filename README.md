@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ## :file_cabinet: Data
 The data used in the paper is a subset of the Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset. We are unable to provide the data used for this paper due to the presence of a nondisclosure agreement (NDA) that governs its use. The data contains sensitive or proprietary information that is subject to legal restrictions.
 
-We understand the importance of transparency and reproducibility in research and development. While we are unable to share the actual dataset, we have provided the scripts and instructions needed to generate figures using a single-cell RNA-seq dataset (mECS) <sup id="footnote1">1</sup> made to the public by the authors of SIMLR <sup id="footnote2">2</sup>, so you can understand the methodology and visualization techniques applied. This dataset contains 182 cells from 3 distinct cell populations. The data is stored in the "**MATLAB/data**" directory as "**Test_1_mECS.mat**".
+We understand the importance of transparency and reproducibility in research and development. While we are unable to share the actual dataset, we have provided the scripts and instructions needed to generate figures using a single-cell RNA-seq dataset (mECS) <sup id="footnote1">1</sup> made to the public by the authors of SIMLR <sup id="footnote2">2</sup>, so you can understand the methodology and visualization techniques applied. This dataset contains 182 cells from 3 distinct cell populations. The data is stored in the "**data**" directory as "**Test_1_mECS.mat**".
 
 
 ## 🔨 Usage
