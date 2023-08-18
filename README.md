@@ -1,6 +1,6 @@
 # Clustering Alzheimer’s Disease Subtypes via Similarity Learning and Graph Diffusion
 
-This repository holds the source code for the paper:
+This repository holds the source code for the following manuscript:
 > Tianyi Wei; Shu Yang; Davoud Ataee Tarzanagh; Jingxuan Bao; Jia Xu; Patryk Orzechowski; Joost B. Wagenaar; Qi Long; Li Shen. Clustering Alzheimer’s Disease Subtypes via Similarity Learning and Graph Diffusion.
 
 ## 🦸‍ Abstract
