@@ -60,7 +60,7 @@ We applied K-Means, spectral clustering, SIMLR, and the graph diffusion variants
 
 Abbreviation: SC - spectral clustering
 
-Below are the heatmaps of similarity matrices for spectral clustering, SIMLR, and their graph diffusion variants. All four similarity matrices have a block-diagonal structure. However, the similarity matrices of spectral clustering and SIMLR without graph diffusion suffered from a large amount of noise in the off diagonal entries (Figure 3a, 3b). After adding the graph diffusion, the noise in the similarity matrices were largely reduced (Figure 3c, 3d). The noise reduction effect of graph diffusion is especially remarkable under the similarity learning framework.
+Below are the heatmaps of similarity matrices for spectral clustering, SIMLR, and their graph diffusion variants. All four similarity matrices have a block-diagonal structure. However, the similarity matrices of spectral clustering and SIMLR without graph diffusion suffered from a large amount of noise in the off diagonal entries (bottom row). After adding the graph diffusion, the noise in the similarity matrices were largely reduced (bottom row). The noise reduction effect of graph diffusion is especially remarkable under the similarity learning framework.
 
 | ![Image 1](results/simMat_SC.png) | ![Image 2](results/simMat_SIMLR.png) |
 |:---:|:---:|
@@ -68,7 +68,7 @@ Below are the heatmaps of similarity matrices for spectral clustering, SIMLR, an
 | ![Image 3](results/simMat_SC_diff.png) | ![Image 4](results/simMat_SIMLR_diff.png) |
 | *Spectral Clustering  + Graph Diffusion* | *SIMLR  + Graph Diffusion* |
 
-Below are the 2-D cluster visualizations for each of the five methods. The 2-D embeddings were obtained using t-SNE. We observed that SIMLR with graph diffusion resulted in the most well-separated visualization for the clusters. 
+Below are the 2-D cluster visualizations for each of the five methods. The 2-D embeddings were obtained using t-SNE. Due to the stochastic nature of t-SNE, the 2-D visualizations may be different. We observed that SIMLR with graph diffusion resulted in the most well-separated visualization for the clusters. 
 
 | ![Image 1](results/tsne_kmeans.png) | ![Image 2](results/tsne_SC.png) |
 |:---:|:---:|
