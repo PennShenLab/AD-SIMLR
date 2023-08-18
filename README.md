@@ -64,10 +64,10 @@ abbreviation: SC - spectral clustering
 
 Below are the heatmaps of similarity matrices for spectral clustering, SIMLR, and their graph diffusion variants. All four similarity matrices have a block-diagonal structure. However, the similarity matrices of spectral clustering and SIMLR without graph diffusion suffered from a large amount of noise in the off diagonal entries (Figure 3a, 3b). After adding the graph diffusion, the noise in the similarity matrices were largely reduced (Figure 3c, 3d). The noise reduction effect of graph diffusion is especially remarkable under the similarity learning framework.
 
-| ![Image 1](MATLAB/result/simMat_SC.png) | ![Image 2](MATLAB/results/simMat_SIMLR.png) |
+| ![Image 1](MATLAB/results/simMat_SC.png) | ![Image 2](MATLAB/results/simMat_SIMLR.png) |
 |:---:|:---:|
 | *Spectral Clustering* | *SIMLR* |
-| ![Image 3](MATLAB/results/simMat_SC_diff.png) | ![Image 4](MATLAB/results/simMat_SMILR_diff.png) |
+| ![Image 3](MATLAB/results/simMat_SC_diff.png) | ![Image 4](MATLAB/results/simMat_SIMLR_diff.png) |
 | *Spectral Clustering  + Graph Diffusion* | *SIMLR  + Graph Diffusion* |
 
 Below are the 2-D cluster visualizations for each of the five methods. The 2-D embeddings were obtained using t-SNE. We observed that SIMLR with graph diffusion resulted in the most well-separated visualization for the clusters. 
@@ -77,9 +77,9 @@ Below are the 2-D cluster visualizations for each of the five methods. The 2-D e
 | *K-Means* | *SC* |
 | ![Image 3](MATLAB/results/tsne_SIMLR.png) | ![Image 4](MATLAB/results/tsne_SC_diff.png) |
 | *SIMLR* | *Spectral Clustering  + Graph Diffusion* |
-|:---:|
-| <center>![Image 5]((MATLAB/results/tsne_SIMLR_diff.png)</center> |
-| <center>*SIMLR + Graph Diffusion*</center>|
+|:---:|:---:|
+| ![Image 5]((MATLAB/results/tsne_SIMLR_diff.png) | |
+| *SIMLR + Graph Diffusion*| |
 
 
 
