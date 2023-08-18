@@ -12,9 +12,9 @@ Alzheimer's disease (AD) is a complex neurodegenerative disorder that affects mi
 - MATLAB
   
 Install the required packages using pip:
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 ## :file_cabinet: Data
 The data used in the paper is a subset of the Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset. We are unable to provide the data used for this paper due to the presence of a nondisclosure agreement (NDA) that governs its use. The data contains sensitive or proprietary information that is subject to legal restrictions.
@@ -25,10 +25,10 @@ We understand the importance of transparency and reproducibility in research and
 ## 🔨 Usage
 ### Clone this repository
 Clone this repository to your local machine:
-'''
+```
 git clone 
 cd AD-SIMLR/Matlab
-'''
+```
 The authors of SIMLR provided SIMLR code for R and MATLAB. We conducted our analysis using the MATLAB version of SIMLR.
 
 ### Generate Clustering Results
@@ -36,14 +36,14 @@ The "SC_SIMLR_implementation.m" script contains code to generate similarity matr
 1. Open MATLAB on your machine.
 
 2. Navigate to the directory containing the `SC_SIMLR_implementation.m` script.
-   '''
+   ```
    /path/to/repo/AD-SIMLR/Matlab
-   '''
+   ```
    
 3. Make sure you have the data in the "data" directory and specify the correct path in the script
-   '''
+   ```
    data_path = "data/Test_1_mECS.mat";
-   '''
+   ```
    
 4. Run the script in MATLAB
 
@@ -51,9 +51,9 @@ We modified the implementation in "**SIMLR.m**" to generate results before and a
 
 ### Generate Visualizations
 The "**generate_figures.py**" script generates figures using data obtained from the MATLAB script. We used this script to generate Figure 3 and Figure 4 in the paper. 
-'''
+```
 python generate_figures.py --dir ./results
-'''
+```
 
 
 ## 🤝 Acknowledgements
