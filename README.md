@@ -87,6 +87,7 @@ Below are the 2-D cluster visualizations for each of the five methods. The 2-D e
 
 ### 📚 Citation
 [1] Buettner, F. et al. Nat. Biotechnol. 33, 155–160 (2015).
+
 [2] Wang B, Zhu J, Pierson E, Ramazzotti D, Batzoglou S. Visualization and analysis of single-cell RNA-seq data by kernel-based similarity learning. Nature methods. 2017;14(4):414-6.
 
 
