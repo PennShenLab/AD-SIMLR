@@ -29,7 +29,7 @@ Clone this repository to your local machine:
 git clone 
 cd AD-SIMLR
 ```
-The authors of SIMLR provided SIMLR code for R and MATLAB. We conducted our analysis using the MATLAB version of SIMLR.
+The authors of SIMLR provided SIMLR code for R and MATLAB <sup id="footnote2">3</sup>. We conducted our analysis using the MATLAB version of SIMLR.
 
 ### Generate Clustering Results
 The "SC_SIMLR_implementation.m" script contains code to generate Silhouette scores, similarity matrices, cluster assignments, and 2D visualization embeddings.
@@ -100,6 +100,8 @@ Patryk Orzechowski
 [1] Buettner, F. et al. Nat. Biotechnol. 33, 155–160 (2015).
 
 [2] Wang B, Zhu J, Pierson E, Ramazzotti D, Batzoglou S. Visualization and analysis of single-cell RNA-seq data by kernel-based similarity learning. Nature methods. 2017;14(4):414-6.
+
+[3] https://batzogloulabsu.github.io/SIMLR/
 
 
 
