@@ -9,7 +9,7 @@ Alzheimer's disease (AD) is a complex neurodegenerative disorder that affects mi
 
 ## 📝 Requirements
 - Python 3.6 or later
-- MATLAB
+- MATLAB2021A or later
   
 Install the required packages using pip:
 ```
