@@ -84,6 +84,18 @@ Below are the 2-D cluster visualizations for each of the five methods. The 2-D e
 
 
 ## 🤝 Acknowledgements
+This work was supported in part by National Institutes of Health grants U01 AG068057, U01 AG066833, R01 AG071470, RF1 AG063481 and RF1 AG068191; and National Science Foundation grant IIS 1837964. 
+
+The data used in this repo was sourced from Buettner et al. 2015<sup id="footnote3">1</sup>, and we thank them for providing valuable datasets. The SIMLR<sup id="footnote3">2</sup> framework was used extensively in the development of this code.
+
+### Authors and Affiliations
+**Department of Biostatistics, Epidemiology and Informatics, Perelman School of Medicine,
+University of Pennsylvania, Philadelphia, PA, USA**
+Tianyi Wei; Shu Yang; Davoud Ataee Tarzanagh; Jingxuan Bao; Jia Xu; Patryk Orzechowski; Joost B. Wagenaar; Qi Long; Li Shen
+
+**Department of Automatics and Robotics, AGH University of Science and Technology, al. Mickiewicza 30, 30-059 Krakow, Poland**
+Patryk Orzechowski
+
 
 
 ### 📚 Citation
