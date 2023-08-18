@@ -61,7 +61,7 @@ We applied K-Means, spectral clustering, SIMLR, and the graph diffusion variants
 |-------|--------|----------|------------------|----------|--------------------|
 | Value | 0.0566 | 0.7413   | 0.8723           | 0.5740   | 0.9835             |
 
-^ Abbreviation: SC - spectral clustering
+Abbreviation: SC - spectral clustering
 
 Below are the heatmaps of similarity matrices for spectral clustering, SIMLR, and their graph diffusion variants. All four similarity matrices have a block-diagonal structure. However, the similarity matrices of spectral clustering and SIMLR without graph diffusion suffered from a large amount of noise in the off diagonal entries (Figure 3a, 3b). After adding the graph diffusion, the noise in the similarity matrices were largely reduced (Figure 3c, 3d). The noise reduction effect of graph diffusion is especially remarkable under the similarity learning framework.
 
