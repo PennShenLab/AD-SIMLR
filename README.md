@@ -91,6 +91,7 @@ The data used in this repo was sourced from Buettner et al. 2015<sup id="footnot
 ### Authors and Affiliations
 **Department of Biostatistics, Epidemiology and Informatics, Perelman School of Medicine,
 University of Pennsylvania, Philadelphia, PA, USA**
+
 Tianyi Wei; Shu Yang; Davoud Ataee Tarzanagh; Jingxuan Bao; Jia Xu; Patryk Orzechowski; Joost B. Wagenaar; Qi Long; Li Shen
 
 **Department of Automatics and Robotics, AGH University of Science and Technology, al. Mickiewicza 30, 30-059 Krakow, Poland**
