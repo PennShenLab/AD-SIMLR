@@ -49,7 +49,7 @@ We modified the implementation in "**SIMLR.m**" to generate results before and a
 ### Generate Visualizations
 The "**generate_figures.py**" script generates figures of similarity matrices and 2-D cluster visualization using data obtained from the MATLAB script. We used this script to generate Figure 3 and Figure 4 in the paper. 
 ```
-python generate_figures.py --dir ./results
+python3 generate_figures.py --dir ./results
 ```
 
 ### Results
