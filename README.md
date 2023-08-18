@@ -77,7 +77,7 @@ Below are the 2-D cluster visualizations for each of the five methods. The 2-D e
 | *K-Means* | *SC* |
 | ![Image 3](MATLAB/results/tsne_SIMLR.png) | ![Image 4](MATLAB/results/tsne_SC_diff.png) |
 | *SIMLR* | *Spectral Clustering  + Graph Diffusion* |
-| ![Image 5]((MATLAB/results/tsne_SIMLR_diff.png) | |
+| ![Image 5](MATLAB/results/tsne_SIMLR_diff.png) | |
 | *SIMLR + Graph Diffusion* | |
 
 
