@@ -19,7 +19,6 @@
 *.tex
 #*.mat
 *.zip
-*.png
 
 # Configuration file
 cfg.R
