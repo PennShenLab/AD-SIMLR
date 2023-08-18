@@ -9,7 +9,7 @@ Alzheimer's disease (AD) is a complex neurodegenerative disorder that affects mi
 
 ## 📝 Requirements
 - Python 3.6 or later
-- MATLAB2021A or later
+- MATLAB 2021A or later
   
 Install the required packages using pip:
 ```
@@ -42,7 +42,7 @@ The "SC_SIMLR_implementation.m" script contains code to generate Silhouette scor
    data_path = "data/Test_1_mECS.mat";
    ```
    
-4. Run the script in MATLAB
+4. Run the script in MATLAB. The output will be saved in files under the results/ directory.
 
 We modified the implementation in "**SIMLR.m**" to generate results before and after applying graph diffusion. 
 
