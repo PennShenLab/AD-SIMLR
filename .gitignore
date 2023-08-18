@@ -17,7 +17,6 @@
 *.pdf
 *.tar.gz
 *.tex
-#*.mat
 *.zip
 
 # Configuration file
