@@ -1,7 +1,14 @@
 # Clustering Alzheimer’s Disease Subtypes via Similarity Learning and Graph Diffusion
 
-This repository holds the source code for the following manuscript:
-> Tianyi Wei, Shu Yang, Davoud Ataee Tarzanagh, Jingxuan Bao, Jia Xu, Patryk Orzechowski, Joost B. Wagenaar, Qi Long, Li Shen, for the Alzheimer's Disease Neuroimaging Initiative. Clustering Alzheimer’s Disease Subtypes via Similarity Learning and Graph Diffusion.
+This repository holds the source code for [the following manuscript](https://arxiv.org/abs/2410.03937) accepted by [ICIBM 2023](https://icibm2023.iaibm.org/Schedule_files/ICIBM2023%20Program_book_final.pdf):
+```
+@inproceedings{ADSIMLR2023,
+  title={Clustering Alzheimer's Disease Subtypes via Similarity Learning and Graph Diffusion},
+  author={Tianyi Wei and Shu Yang and Davoud Ataee Tarzanagh and Jingxuan Bao and Jia Xu and Patryk Orzechowski and Joost B. Wagenaar and Qi Long and Li Shen},
+  booktitle={International Conference on Intelligent Biology and Medicine (ICIBM)},
+  year={2023},
+}
+```
 
 ## 🦸‍ Abstract
 Alzheimer's disease (AD) is a complex neurodegenerative disorder that affects millions of people worldwide. Due to the heterogeneous nature of AD, its diagnosis and treatment pose critical challenges. Consequently, there is a growing research interest in identifying homogeneous AD subtypes that can assist in addressing these challenges in recent years. In this study, we aim to identify subtypes of AD that represent distinctive clinical features and underlying pathology by utilizing unsupervised clustering with graph diffusion and similarity learning. We adopted SIMLR, a multi-kernel similarity learning framework, and graph diffusion to perform clustering on a group of 829 patients with AD and mild cognitive impairment (MCI, a prodromal stage of AD) based on their cortical thickness measurements extracted from magnetic resonance imaging (MRI) scans. Although the clustering approach we utilized has not been explored for the task of AD subtyping before, it demonstrated significantly better performance than several commonly used clustering methods. Specifically, we showed the power of graph diffusion in reducing the effects of noise in the subtype detection. Our results revealed five subtypes that differed remarkably in their biomarkers, cognitive status, and some other clinical features. To evaluate the resultant subtypes further, a genetic association study was carried out and successfully identified potential genetic underpinnings of different AD subtypes.
@@ -89,7 +96,7 @@ The data used in this repo was sourced from Buettner et al. 2015<sup id="footnot
 **Department of Biostatistics, Epidemiology and Informatics, Perelman School of Medicine,
 University of Pennsylvania, Philadelphia, PA, USA**
 
-Tianyi Wei; Shu Yang; Davoud Ataee Tarzanagh; Jingxuan Bao; Jia Xu; Patryk Orzechowski; Joost B. Wagenaar; Qi Long; Li Shen
+Tianyi Wei#; Shu Yang#; Davoud Ataee Tarzanagh#; Jingxuan Bao; Jia Xu; Patryk Orzechowski; Joost B. Wagenaar; Qi Long; Li Shen
 
 **Department of Automatics and Robotics, AGH University of Science and Technology, al. Mickiewicza 30, 30-059 Krakow, Poland**
 Patryk Orzechowski
